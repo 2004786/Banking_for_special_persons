@@ -1,0 +1,67 @@
+
+
+body {
+    background-color: rgb(255, 255, 255); /* White background */
+    color: #000; /* Black text color */
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f7f5f5; /* Navigation background color */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    /* color: #fff; Navigation link color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #fff; /* Header background color */
+}
+
+/* Section styles */
+section {
+    background-color: hwb(0 95% 3%); /* Section background color */
+    color: #000; /* Text color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+th {
+    background-color: #444;
+}
+
+/* Link styles */
+
+
+a:hover {
+    color: #f00; /* Link color on hover */
+}
