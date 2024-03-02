@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Banking</title>
+    <!-- Add your CSS file here for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add your JavaScript file here for functionality -->
+    <script src="scripts.js"></script>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Resizing Options</title>
+        <style>
+            body {
+                font-size: 16px;
+                /* Initial font size */
+            }
+
+            #text-resizer {
+                display: flex;
+                align-items: center;
+            }
+
+            #increase-font,
+            #decrease-font {
+                cursor: pointer;
+                margin: 0 10px;
+                padding: 5px 10px;
+                border: 1px solid #333;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+<body>
+
+    <div id="text-resizer">
+        <div id="decrease-font" onclick="changeFontSize(-2)">Decrease Font</div>
+        <div id="increase-font" onclick="changeFontSize(2)">Increase Font</div>
+    </div>
+    <script>
+        function changeFontSize(value) {
+            // Get the current font size
+            let currentSize = parseFloat(window.getComputedStyle(document.body).fontSize);
+
+            // Calculate the new font size
+            let newSize = currentSize + value;
+
+            // Set the new font size with a limit to avoid extreme sizes
+            document.body.style.fontSize = Math.max(12, Math.min(24, newSize)) + 'px';
+        }
+    </script>
+
+</body>
+
+</html>
+
+</head>
+
+<body>
+    <header>
+        <h1>Accessible Banking</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#account-summary">
+                        <h2>Account Summary</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#transactions">
+                        <h2>Transactions</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#accessibility">
+                        <h2>Accessibility Features</h2>
+                    </a>
+                </li>
+                <ul>
+                    <li><a href="#screen-reader">Screen Reader Compatibility</a></li>
+
+                    <main>
+                        <section id="account-summary">
+                            <h2>Account Summary</h2>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Account Type</th>
+                                        <th>Balance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Checking</td>
+                                        <td>$5,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Savings</td>
+                                        <td>$10,000.00</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>Salary</td>
+                                        <td>$25,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>current</td>
+                                        <td>$14,000.00</td>
+                                    </tr>
+                                </tbody>
+                                </td>
+                                <td>Savings</td>
+                                <td>$10,000.00</td>
+                                </tr>
+                                </tbody>
+                                <tr>
+                                    <td>Savings</td>
+                                    <td>$10,000.00</td>
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </section>
+                        <section id="transactions">
+                            <h2>Transactions</h2>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01/01/2022</td>
+                                        <td>Checking Account</td>
+                                        <td>$500.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/02/2022</td>
+                                        <td>Savings Account</td>
+                                        <td>$1,000.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                        <section id="accessibility">
+                            <!DOCTYPE html>
+                            <html lang="en">
+
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Accessible Banking</title>
+                                <link rel="stylesheet" href="styles.css">
+                            </head>
+
+                            <body>
+                                <header>
+                                    <h1>BANKING SERVICES</h1>
+                                </header>
+                                <nav>
+                                    <ul>
+                                        <li><a href="#features">Accessible Features</a></li>
+                                        <li><a href="#assistance">Assistance Options</a></li>
+                                        <li><a href="#transactions">Transaction Options</a></li>
+                                        <li><a href="#security">Security Measures</a></li>
+                                        <li><a href="#feedback">Feedback</a></li>
+                                    </ul>
+                                </nav>
+                                <main>
+                                    <!-- Content Sections -->
+                                    <section id="features">
+                                        <h2>Accessible Features</h2>
+                                        <ul>
+                                            <li>Dealing in Money
+                                                <h4> The bank is a financial institution that deals with other people’s
+                                                    money, i.e., the money given by depositors.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>Individual/Firm/Company
+                                                <h4> A bank may be a person, firm, or company. A banking company is a
+                                                    company that is in the business of banking.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                Acceptance of Deposit
+                                                <h4>A bank accepts money from people in deposits that are usually
+                                                    repayable on demand or after a fixed period expires. It gives safety
+                                                    to the deposits of its customers. It also acts as a custodian of
+                                                    funds of its customers.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                Giving Advances
+                                                <h4>A bank lends out money in loans to those who require it for
+                                                    different purposes.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                Payment and Withdrawal
+                                                <h4>A bank provides its customers with an easy payment and withdrawal
+                                                    facility in checks and drafts. It also brings bank money into
+                                                    circulation. This money is in the form of checks, drafts, etc.
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                Profit and Service Orientation
+                                                <h4> A bank is a profit-seeking institution with having service-oriented
+                                                    approach.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                Agency and Utility Services
+                                                <h4>A bank provides various banking facilities to its customers. They
+                                                    include general utility services and agency services.
+
+
+
+                                                    ➡️ iedunote.com/bank-meaning-characteristics-features-functions</h4>
+                                            </li>
+                                        </ul>
+                                        <!-- Feature details -->
+                                    </section>
+                                    <section id="features">
+                                        <h3>Accessible Features</h3>
+                                        <h5>Our banking website is designed with accessibility in mind, ensuring that
+                                            everyone, regardless of ability, can easily access and use our services.
+                                            Some of the key accessible features include:</h4>
+                                            <ul>
+                                                <li>Screen Reader Compatibility: Our website is optimized to work
+                                                    seamlessly with popular screen reader software, enabling visually
+                                                    impaired users to navigate and interact with ease.</li>
+                                                <li>Keyboard Navigation: Easily navigate through our website using
+                                                    keyboard shortcuts, making it convenient for individuals with
+                                                    mobility impairments.</li>
+                                                <li>Adjustable Text Size and Contrast: Customize the text size and
+                                                    contrast settings on our website according to your preferences for
+                                                    enhanced readability.</li>
+                                            </ul>
+                                    </section>
+
+                                    <section id="assistance">
+                                        <!DOCTYPE html>
+                                        <html lang="en">
+
+                                        <head>
+                                            <script>
+                                                function changeFontSize(value) {
+                                                    // Get the current font size
+                                                    let currentSize = parseFloat(window.getComputedStyle(document.body).fontSize);
+
+                                                    // Calculate the new font size
+                                                    let newSize = currentSize + value;
+
+                                                    // Set the new font size with a limit to avoid extreme sizes
+                                                    document.body.style.fontSize = Math.max(12, Math.min(24, newSize)) + 'px';
+                                                }
+                                            </script>
+
+                            </body>
+
+                            </html>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Banking Assistance Options</title>
+                            </head>
+
+                            <body>
+                                <h2>Banking Assistance Options</h2>
+                                <h4>Please select from the following assistance options:</h4>
+                                <ul>
+                                    <li><a href="#" onclick="customerServiceHotline()">Customer Service Hotline</a></li>
+                                    <li><a href="#" onclick="onlineChatSupport()">Online Chat Support</a></li>
+                                    <li><a href="#" onclick="emailSupport()">Email Support</a></li>
+                                    <li><a href="#" onclick="branchVisit()">Branch Visit</a></li>
+                                    <li><a href="#" onclick="socialMediaSupport()">Social Media Support</a></li>
+                                    <li><a href="#" onclick="faqsAndKnowledgeBase()">FAQs and Knowledge Base</a></li>
+                                </ul>
+
+                                <script>
+                                    function customerServiceHotline() {
+                                        alert("You are connected to the customer service hotline.");
+                                        // Add code to handle customer service inquiries here
+                                        window.location.href = "https://www.handicareindia.org/awards/";
+
+                                    }
+
+                                    function onlineChatSupport() {
+                                        alert("You are now connected to online chat support.");
+                                        // Add code to handle online chat inquiries here
+                                        window.location.href = "https://www.disabilities-r-us.com/";
+
+                                    }
+
+                                    function emailSupport() {
+                                        alert("Please email your inquiry to support@bank.com.");
+                                        // Add code to direct customers to email support
+                                        window.location.href = "http://www.ccdisabilities.nic.in/contactus/contact-us";
+                                    }
+
+                                    function branchVisit() {
+                                        alert("Please visit your nearest branch for assistance.");
+                                        // Add code to provide branch visit information
+                                        window.location.href = "https://enabled.in/wp/bank-customer-services-persons-with-disabilities-rbi-circular/";
+                                    }
+
+                                    function socialMediaSupport() {
+                                        alert("Connect with us on Twitter (@bank) or Facebook (facebook.com/bank) for support.");
+                                        // Add code to direct customers to social media support
+                                        window.location.href = "https://everyonecan.org.uk/news/social-media-as-a-communication-tool-for-disabled-people/#:~:text=Social%20media%20can%20really%20help,groups%20that%20are%20more%20specific.";
+                                    }
+
+                                    function faqsAndKnowledgeBase() {
+                                        alert("Please visit our FAQs page at www.bank.com/faqs for answers to common questions.");
+                                        // Add code to provide FAQs link
+                                        window.location.href = "https://adata.org/faq-page";
+                                    }
+                                </script>
+                            </body>
+
+                            </html>
+                            <h4>Assistance Options</h4>
+                            <p>We are committed to providing assistance to individuals with disabilities to ensure a
+                                smooth banking experience. Our assistance options include:</p>
+                            <ul>
+                                <li>Dedicated Support: Our customer support team is trained to assist individuals with
+                                    disabilities. You can reach out to us via phone, email, or live chat for any
+                                    assistance you may need.</li>
+                                <li>Accessible Branches: Our physical branches are equipped with facilities to
+                                    accommodate customers with disabilities. Find your nearest accessible branch on our
+                                    website.</li>
+                            </ul>
+                        </section>
+
+                        <section id="transactions">
+                            <h2>Transaction Options</h2>
+                            <p>Conduct your transactions conveniently and securely through our accessible banking
+                                services. Our transaction options include:</p>
+                            <ul>
+                                <li>Online Banking: Manage your accounts, transfer funds, and pay bills from the comfort
+                                    of your home through our secure online banking platform.</li>
+                                <li>Mobile Banking App: Access your accounts, make transfers, and manage your finances
+                                    on the go with our accessible mobile banking app.</li>
+                                <li>Assisted Transactions: If you require assistance with transactions, visit our
+                                    branches where our staff will be happy to assist you.</li>
+                            </ul>
+                        </section>
+
+                        <section id="security">
+                            <h2>Security Measures</h2>
+                            <p>Protecting your financial information is our top priority. We have implemented stringent
+                                security measures to safeguard your data, including:</p>
+                            <ul>
+                                <li>Data Encryption: All communication between your browser and our servers is encrypted
+                                    using industry-standard SSL/TLS encryption protocols.</li>
+                                <li>Two-Factor Authentication: Add an extra layer of security to your account with
+                                    two-factor authentication, ensuring that your transactions are secure.</li>
+                            </ul>
+                        </section>
+
+                        <section id="feedback">
+                            <h2>Feedback and Suggestions</h2>
+                            <p>We value your feedback and are continuously working to improve our services to better
+                                meet your needs. Please share your feedback and suggestions with us:</p>
+                            
+                                <h5>Feedback Form: Fill out our online feedback form to share your thoughts and
+                                    suggestions with us. We appreciate your input!</h5>
+                                <h2>Feedback Form</h2>
+                                <form action="submit_feedback.php" method="post">
+                                    <label for="username">Username:</label><br>
+                                    <input type="text" id="username" name="username" required><br>
+                                    <label for="email">Email:</label><br>
+                                    <input type="email" id="email" name="email" required><br>
+                                    <label for="password">Password:</label><br>
+                                    <input type="password" id="password" name="password" required><br>
+                                    <label for="confirm-password">Confirm Password:</label><br>
+                                    <input type="password" id="confirm-password" name="confirm-password" required><br>
+                                    <input type="submit" value="Sign Up" name="submit">
+                                </form>
+                                <p>Contact Us: You can also reach out to our customer support team directly via phone,
+                                    email, or live chat to provide feedback or request assistance.</p>
+
+                        </section>
+
+                    </main>
+                    <footer>
+                        <p>&copy; Thank For Connect With Our Banking Service </p>
+                    </footer>
+
+
+
+
+                    </section>
+
+                    <section id="screen-reader">
+                        <h2>Screen Reader Compatibility</h2>
+                        <p>Information for users who rely on screen readers to navigate the web.</p>
+                        <!-- Add content specific to screen reader compatibility -->
+                    </section>
+                    <section id="high-contrast">
+                        <h2>High Contrast Mode</h2>
+                        <p>Instructions for enabling high contrast mode for better readability.</p>
+                        <!-- Add content specific to high contrast mode -->
+                    </section>
+                    <section id="keyboard-navigation">
+                        <h2>Keyboard Navigation</h2>
+                        <p>Guidelines for navigating the website using keyboard shortcuts.</p>
+                        <!-- Add content specific to keyboard navigation -->
+                    </section>
+                    <section id="alt-text">
+                        <h2>Alt Text for Images</h2>
+                        <p>Explanation of the importance of providing alternative text for images.</p>
+                        <!-- Add content specific to alt text for images -->
+                    </section>
+                    <section id="video-captions">
+                        <h2>Captions for Videos</h2>
+                        <p>Information on how to enable captions for videos for users with hearing impairments.</p>
+                        <!-- Add content specific to video captions -->
+                    </section>
+                    <section id="contact">
+                        <h2>Contact Us</h2>
+                        <p>Email: <a href="mailto:support@accessiblebanking.com">support@accessiblebanking.com</a></p>
+                        <p>Phone: <a href="tel:1234567890">(123) 456-7890</a></p>
+                    </section>
+                    </main>
+</body>
+
+</html>
